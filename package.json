@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node ./index.ts",
-    "levenshtein": "ts-node ./levenshtein.ts",
-    "search-engine": "ts-node ./search-engine.ts"
+    "levenshtein": "ts-node LevenshteinDistance/levenshtein.ts",
+    "search-engine": "ts-node SimilarityRankEngine/similarity-rank-engine.ts"
   },
   "keywords": [],
   "author": "",

@@ -1,4 +1,4 @@
-import {levenshtein} from "./levenshtein";
+import {levenshtein} from "../LevenshteinDistance/levenshtein";
 
 type ScoredItem<T> = {
   result: T[];
