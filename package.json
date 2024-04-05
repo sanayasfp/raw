@@ -1,0 +1,20 @@
+{
+  "name": "raw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./index.ts",
+    "levenshtein": "ts-node ./levenshtein.ts",
+    "search-engine": "ts-node ./search-engine.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsx": "^4.7.2",
+    "typescript": "^5.4.3"
+  }
+}
